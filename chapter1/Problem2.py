@@ -2,5 +2,5 @@
 
 import pyttsx3
 engine = pyttsx3.init()
-engine.say(" Kris ka ganna sunega?")
+engine.say(" Kris ka ganna sunega ?")
 engine.runAndWait()
