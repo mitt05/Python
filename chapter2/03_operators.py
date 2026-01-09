@@ -47,3 +47,19 @@ print("Greater than:", p > q) #False
 print("Less than:", p < q) #True
 print("Greater than or equal to:", p >= q) #False
 print("Less than or equal to:", p <= q) #True
+
+# Logical Operators
+
+m = True
+n = False
+print("Logical AND:", m and n) #False
+print("Logical OR:", m or n) #True
+print("Logical NOT:", not m) #False
+
+# truth table of logical operators
+
+# A       B       A and B    A or B     not A
+# True    True    True       True       False
+# True    False   False      True       False  
+# False   True    False      True       True
+# False   False   False      False      True     
